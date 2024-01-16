@@ -16,7 +16,7 @@ time.sleep(5)
 os.rmdir('Newer_folder')
 time.sleep(5)
 ts2 = time.time()
-print(f'Duration {ts1 - ts2}')
+print(f'Duration {ts2 - ts1}')
 
 print(os.environ)
 

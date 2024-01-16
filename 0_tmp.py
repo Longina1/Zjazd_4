@@ -38,7 +38,7 @@ print(f'Set 3: {set3}')
 
 
 def triangle(**data):
-    if 'a' in data.keys and 'b' in data.keys() and 'c' in data.keys():
+    if 'a' in data.keys() and 'b' in data.keys() and 'c' in data.keys():
         print(f'Triangle is calculated based on three sides')
     elif 'a' in data.keys() and 'b' in data.keys() and 'alpha' in data.keys():
         print(f'Triangle is calculated based on two sides and an angle')
